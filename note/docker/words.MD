@@ -1,4 +1,4 @@
-####  GET START
+#### GET START
 excite：使……兴奋，激动
 
 excited：v(过去式) adj：兴奋的，激动的

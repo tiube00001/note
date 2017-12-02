@@ -1,4 +1,8 @@
 ### 2017-12-1日之前
+<<<<<<< HEAD:yii2/yii2English.md
+=======
+
+>>>>>>> a6523896de7f5bfb5045a00dd955e61aa74b354c:yii2/yii2English.MD
 Encapsulate：将……封装起来，将……封入胶囊
 
 associated with：与……有关联的
