@@ -1,4 +1,4 @@
-###2017-12-01之前
+### 2017-12-01之前
 Yii2-ueditor-asset会引起ActiveForm，ajax,client验证异常。必须关闭此字段的clientVlidation
 
 Yii2 rules，onSkipEmpety优先级很高
