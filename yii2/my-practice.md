@@ -17,3 +17,5 @@ svn,git钩子
 
 ### 2017-12-04
 yii2 $model->select(['aaa AS \`bbb\`'])，可以生成 SELECT 'aaa' AS \`bbb\`，这类自己生造的字段
+
+this is a teset
