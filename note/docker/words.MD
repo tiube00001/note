@@ -5,6 +5,8 @@ excited：v(过去式) adj：兴奋的，激动的
 
 tutorial：n:教程，使用说明，辅导课，adj:导师的，辅导的，私人教师的
 
+orient：vt.使适应；确定方向，使朝东，vi.向东，adj.东方的，n.东方，东方诸国
+
 oriented: adj：以……为方向的，导向的，定方向
 
 scaling：定标，缩放
