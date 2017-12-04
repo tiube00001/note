@@ -14,3 +14,6 @@ ci:持续集成
 cd:持续交付
 
 svn,git钩子
+
+### 2017-12-04
+yii2 $model->select(['aaa AS \`bbb\`'])，可以生成 SELECT 'aaa' AS \`bbb\`，这类自己生造的字段
