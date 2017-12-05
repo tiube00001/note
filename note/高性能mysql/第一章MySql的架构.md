@@ -67,4 +67,20 @@ MySql默认是将一个查询当作一个事务处理，
 
 MVCC只在：REPEATABLE READ，READ COMMITTED两个事务等级上起作用，READ UNCOMMITTED总是读取最新的行而不是符合事务要求的行，SERIALIZABLE会给所有读取的行加锁 
 
-aaa
+### 1.5.6 转换表的储存引擎
+
+1.直接执行语句：ALERT TABLE table_name ENGINE = InnoDB;
+
+优点：简单易用
+缺点：原表会被加锁，且消耗掉系统几乎所有的I/O，如果数据量大，时间会很长
+
+2.使用mysqldump工具，将数据导出到文件，再修改文件中的CREATE TABLE语句，最后再导回去。（注意：同时要修改原表表名，mysqldump会默认执行DROP TABLE）
+
+3.先创建新表，再将原表数据全部复制到新表：
+    
+    START TRANSACTION;
+    CREATE TABLE new_table LIKE old_table;
+    INSERT INTO new_table SELECT * FROM old_table WHERE id BETWEEN x AND y
+    COMMIT;
+    (其中，x和y进行相应的替换，就可以全表镜像复制)
+    注意：Percona Toolkit提供了一个pt-online-schema-change（基于Facebook的在线schema变换技术）的工具，可以简单实现上述过程，避免手工操作出现失误    
