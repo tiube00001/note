@@ -33,3 +33,7 @@ yii2\db\Expression对象，可以声明在查询构造时，原样输出字符�
 函数：key($array) 取得数组内部指针当前指向的元素的key
 
 函数：current($array) 取出数组指针指向的元素的value
+
+### 2017-12-06
+
+函数：strip_tags($text, '\<p>\<a>'); 去除字符串的html标签，但是保留p和a标签
