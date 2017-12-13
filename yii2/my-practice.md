@@ -45,3 +45,16 @@ yii2\db\Expression对象，可以声明在查询构造时，原样输出字符�
 ### 2017-12-12
 
 八位透明度+颜色，16进制数据：aabbggrr，aa代表透明度，bb蓝色，gg绿色，rr红色
+
+### 2017-12-13
+
+array_map()这些函数，其实性能不及foreach,
+
+simplexml_load_file()在加载不标准的xml文件时，会报错I/O错误，尤其是linux系统下，
+使用：file_get_content()，再迂回使用，simplexml_load_string()，可以规避此错误
+
+vue.js下，this.a['b'] = 'value'，无法触发dom更新，需使用：this.a.b = 'value'。
+
+如果key是动态的需使用：this.$set()方法
+
+注意点：this.a['b'] = 'value'; this.$set(this.a, 'b', 'value'); 这样连续的句会造成this.$set()失效……
