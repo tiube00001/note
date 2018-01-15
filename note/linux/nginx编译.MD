@@ -15,5 +15,11 @@
           --with-pcre \
           --with-zlib=/download/zlib-1.2.11 \
     5.make && make install
-    6.
+    6.指定nginx启动配置文件
+    7.书写启动脚本
+    8.添加开机启动
+    9.nginx增加虚拟机：
+        在nginx.conf http{}块最后一行添加：
+        include vhosts/*.conf;
+        在……/vhosts目录添加server配置文件
     
