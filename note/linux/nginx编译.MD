@@ -2,7 +2,7 @@
 
     0.创建用户组：
         groupadd nginx
-        useradd nginx -M -s /sbin/nologin -g nginx nginx
+        useradd -M -s /sbin/nologin -g nginx nginx
         
     1.yum install gcc gcc-c++
     2. yum -y install zlib zlib-devel openssl openssl--devel pcre pcre-devel
@@ -14,6 +14,7 @@
           --with-http_ssl_module \
           --with-pcre \
           --with-zlib=/download/zlib-1.2.11 \
+          --add-module=/download/echo-nginx-module
     5.make && make install
     6.指定nginx启动配置文件
     7.书写启动脚本

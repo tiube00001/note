@@ -4,7 +4,7 @@
     1.-a，打开一个交互式shell，像mysql客户端一样的东西
         需要模块：readline，
         安装readline的依赖包：libedit-devel，（centos）
-    2.-c <path|file>，在此目录或者文件，查找php.ini文件
+    2.-c <path|file>，在此目录或者文件，查找，加载配置文件
     3.-n，不使用配置文件运行
     4.-d foo[=bar]，定义一个ini的配置项目：foo，并根据情况赋值
     5.-e，为：debugger/profiler创建扩展信息

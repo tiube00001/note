@@ -4,4 +4,4 @@
     2.cd /php-source-code/ext/your-extension-dir
     3.phpize(前提是php\bin设置了环境变量)
     4../configure --with-php-config=/your-php-dir/bin/php-config
-       (./configure --with-php-config=/usr/local/php7/bin/php-config)
+       (./configure --with-php-con  fig=/usr/local/php7/bin/php-config)
