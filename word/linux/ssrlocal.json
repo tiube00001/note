@@ -1,0 +1,16 @@
+{
+  "server" : "97.64.21.135",
+  "server_port" : 80,
+  "local_address": "127.0.0.1",
+  "local_port": 1080,
+  "server_udp_port" : 0,
+  "password" : "yu1596321",
+  "method" : "aes-256-cfb",
+  "protocol" : "origin",
+  "protocolparam" : "",
+  "obfs" : "plain",
+  "obfsparam" : "",
+  "remarks_base64" : "",
+  "enable" : true,
+  "udp_over_tcp" : false
+}
