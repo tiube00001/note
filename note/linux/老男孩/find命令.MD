@@ -1,4 +1,5 @@
 ### find命令
+    eg：find / -name 'mysql*'
     -type 文件类型，可取值：f-file，d-directory，c-charactre, b-block, s-socket，l-link，
     -name 文件名
     -mtime 修改时间，例如：
