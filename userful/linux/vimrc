@@ -14,8 +14,8 @@ set number "显示行号
 "set nonumber "不显示行号
 
 "格式设置.
-set autoindent "自动缩进
-set smartindent "智能缩进
+"set autoindent "自动缩进
+"set smartindent "智能缩进
 set cindent "C缩进
 set tabstop=4 "硬TAB
 set softtabstop=4 "软TAB
@@ -27,3 +27,6 @@ set showmatch "显示匹配
 set matchtime=5 "1/10秒延迟
 set hlsearch "高亮搜索
 set incsearch "搜索中匹配
+
+set nobackup
+set noswapfile
